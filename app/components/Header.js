@@ -95,7 +95,7 @@ const Header = ({ setFilteredRooms }) => {
             value={search}
             onChange={handleSearch}
             placeholder="Search For Cities, Suburbs, or Streets"
-            className="w-full h-[77px] px-10 bg-white text-black placeholder-gray-500 rounded"
+            className="w-full h-[60px] px-10 bg-white text-black placeholder-gray-500 rounded"
           />
           <svg
             className="absolute left-3 top-1/2 transform -translate-y-1/2 text-[#FF8600] w-6 h-6"

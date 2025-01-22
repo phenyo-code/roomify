@@ -13,7 +13,7 @@ const RoomDetails = ({ params }) => {
     return <div>Room not found</div>;
   }
 
-  const { price, bedrooms, suburb, images, sharing, type, street, description } = room;
+  const { price, bedrooms, suburb, images, sharing, type, street, description, city } = room;
 
   const [currentImageIndex, setCurrentImageIndex] = React.useState(0);
 
@@ -102,7 +102,7 @@ const RoomDetails = ({ params }) => {
             R{price}
           </h1>
           <p className="text-lg text-gray-700 mb-2">{bedrooms} Bedroom in {suburb}</p>
-          <p className="text-lg text-[#7DA0FB] mb-6 pb-4">{street}</p>
+          <p className="text-lg text-[#7DA0FB] mb-6 pb-4">{street}, {city} </p>
           <p className="text-gray-600">{description}</p>
         </div>
       </div>

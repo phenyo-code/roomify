@@ -3,7 +3,7 @@ import { FaBed, FaUsers, FaCheckCircle } from "react-icons/fa";
 import Link from "next/link";
 
 const RoomCard = ({ room }) => {
-  const { id, price, bedrooms, suburb, images, sharing, type } = room;
+  const { id, price, bedrooms, suburb, images, sharing, type, city } = room;
 
   return (
     <div className="flex flex-col border rounded-lg shadow-md overflow-hidden mb-5 relative">
@@ -32,11 +32,11 @@ const RoomCard = ({ room }) => {
       <div className="p-4">
         {/* Price and Description */}
         <div className="flex items-center mb-2">
-          <span className="text-[#E55821] text-lg font-bold mr-4">
+          <span className="text-[#E55821] text-lg font-bold mr-1">
             R{price}
           </span>
           <span className="text-gray-700 text-md">
-            {bedrooms} Bedroom Residence in {suburb}
+          -- {bedrooms}Bedroom Residence in {suburb}, {city}
           </span>
         </div>
 
