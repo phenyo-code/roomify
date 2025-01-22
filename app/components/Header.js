@@ -73,6 +73,7 @@ const Header = ({ setFilteredRooms }) => {
 
   return (
     <header className="bg-[#E55821] text-white p-4">
+      
       <div className="flex flex-col items-center">
       <div className="flex items-center space-x-2 mb-8">
   {/* "Roomify" Text */}

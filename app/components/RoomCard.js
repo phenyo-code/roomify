@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBed, FaUsers, FaCheckCircle } from "react-icons/fa";
-import Link from 'next/link';
+import Link from "next/link";
 
 const RoomCard = ({ room }) => {
   const { id, price, bedrooms, suburb, images, sharing, type } = room;
@@ -8,7 +8,7 @@ const RoomCard = ({ room }) => {
   return (
     <div className="flex flex-col border rounded-lg shadow-md overflow-hidden mb-5 relative">
       {/* Room Image */}
-      <Link href={`/rooms/${id}`} passHref>
+      <Link href={`/rooms/${room.id}`} passHref>
         <div className="relative cursor-pointer">
           <img
             src={images[0]}
@@ -57,3 +57,4 @@ const RoomCard = ({ room }) => {
 };
 
 export default RoomCard;
+
