@@ -32,11 +32,11 @@ const RoomCard = ({ room }) => {
       <div className="p-4">
         {/* Price and Description */}
         <div className="flex items-center mb-2">
-          <span className="text-[#E55821] text-lg font-bold mr-1">
+          <span className="text-[#E55821] text-lg font-bold mr-2">
             R{price}
           </span>
-          <span className="text-gray-700 text-md">
-          -- {bedrooms}Bedroom Residence in {suburb}, {city}
+          <span className="text-gray-700 text-md truncate overflow-hidden whitespace-nowrap">
+          {bedrooms} Bedroom Residence in {suburb}, {city}
           </span>
         </div>
 
