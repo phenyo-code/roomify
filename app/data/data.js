@@ -27,7 +27,6 @@ const Rooms = [
       city: "Johannesburg",
       suburb: "Zone 2",
       images: [
-        "https://images.pexels.com/photos/1568626/pexels-photo-1568626.jpeg",
         "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg",
         "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
         "https://images.pexels.com/photos/234346/pexels-photo-234346.jpeg",
