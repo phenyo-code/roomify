@@ -1,4 +1,4 @@
-# Roomify   ['roomify.com'](https://roomify-seven.vercel.app/)
+# Roomify 
 
 ## Description
 Roomify is a web application designed to help students find suitable accommodation options, including private rooms and NSFAS (National Student Financial Aid Scheme) rooms. It offers a convenient platform to search and filter accommodations based on specific preferences such as sharing or no sharing, affordability, and location. With Roomify, students can easily find accommodation that fits their needs and budget.
