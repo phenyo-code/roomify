@@ -11,7 +11,7 @@ To get started with Roomify:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/roomify.git
+   git clone https://github.com/phenyo-code/roomify.git
 
    
 2. Install the dependencies:
