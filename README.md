@@ -1,10 +1,33 @@
-# Roomify 
+<h1 align="center">🏠 Roomify</h1>
+
+<p align="center">
+  <i>Your Student Housing Companion in South Africa</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/last%20commit-june-2ea44f?style=flat-square" />
+  <img src="https://img.shields.io/badge/next.js-15.1.6-black?logo=nextdotjs&style=flat-square" />
+  <img src="https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react&style=flat-square" />
+</p>
+
+---
 
 ## Description
-Roomify is a web application designed to help students find suitable accommodation options, including private rooms and NSFAS (National Student Financial Aid Scheme) rooms. It offers a convenient platform to search and filter accommodations based on specific preferences such as sharing or no sharing, affordability, and location. With Roomify, students can easily find accommodation that fits their needs and budget.
 
-## Problem to solve
-In South Africa, finding affordable and suitable accommodation is a common challenge for students. Roomify aims to simplify this process by providing an easy-to-use platform where students can search for and filter accommodation based on their preferences. Whether students are looking for a private room or a shared space, Roomify makes it easier to find a place that meets their requirements while considering financial constraints and living arrangements.
+**Roomify** is a modern web platform built to help South African students find suitable accommodation, including **NSFAS-approved** rooms and private rentals. With easy-to-use filters, a smooth search experience, and responsive design, Roomify simplifies the student housing journey — from exploration to decision-making.
+
+---
+
+## Problem It Solves
+
+Finding safe, affordable, and convenient student accommodation in South Africa can be a challenge — especially for NSFAS students. Roomify directly addresses this by:
+
+- Offering both **private** and **shared** listings.
+- Highlighting **NSFAS**-compatible options.
+- Letting students **filter by budget, sharing preferences, and location**.
+- Delivering a mobile-first, accessible experience for all users.
+
+---
 
 ## Quick Start
 To get started with Roomify:
