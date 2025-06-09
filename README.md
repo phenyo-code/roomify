@@ -1,4 +1,4 @@
-<h1 align="center">🏠 Roomify</h1>
+<h1 align="center">Roomify</h1>
 
 <p align="center">
   <i>Your Student Housing Companion in South Africa</i>
